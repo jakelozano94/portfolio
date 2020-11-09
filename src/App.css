@@ -22,22 +22,6 @@ ul.dashed > li:before {
   text-indent: -5px;
 }
 
-.skills{
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-  width: 70%;
-}
-
-.prof{
-  margin-left: 30px;
-  padding-right: 10%;
-}
-
-.exposed{
-  margin-left: 30px;
-}
-
 #links{
   position:fixed;
   bottom: 0;
@@ -71,4 +55,32 @@ ul.dashed > li:before {
   align-content: flex-end;
   margin-top: 100px;
   width: 50%
+}
+
+.skills{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  width: 70%;
+}
+
+.prof{
+  margin-left: 30px;
+  padding-right: 10%;
+}
+
+.exposed{
+  margin-left: 30px;
+}
+
+.projects{
+  display: block;
+}
+
+#proj_cards_cont img{
+  margin: 20px;
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  overflow: hidden
 }
