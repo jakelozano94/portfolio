@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  margin: 0;
+  padding-inline-start: 0px;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.skills{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 40px;
+  width: 70%;
 }
 
-.App-link {
-  color: #61dafb;
+.prof{
+  margin-left: 30px;
+  padding-right: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.exposed{
+  margin-left: 30px;
+}
+
+#links{
+  position:fixed;
+  bottom: 0;
+  padding-bottom: 20px;
+}
+
+.header{
+  display: flex
+}
+
+.header h1{
+  width: 70%;
+  margin: auto
+}
+
+#profile_pic img{
+  border-radius: 50%;
+  padding-top: 10px;
+  padding: 0px;
+  height: 200px;
+  width:200px
+}
+
+.content{
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+.about_me{
+  display: flex;
+  align-content: flex-end;
+  margin-top: 100px;
+  width: 50%
 }
