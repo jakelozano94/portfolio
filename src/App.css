@@ -1,10 +1,14 @@
 
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  width: 220px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   left: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+#sidebar_name{
+  margin-left: 25px
 }
 
 ul {
@@ -28,6 +32,20 @@ ul.dashed > li:before {
   padding-bottom: 20px;
 }
 
+.title{
+  margin-bottom: 3px;
+}
+
+
+
+
+
+svg:hover {
+	-webkit-transform: translateY(-1px);
+  transform: translateY(-1px);
+  fill: lightgrey
+}
+
 .header{
   display: flex
 }
@@ -39,22 +57,23 @@ ul.dashed > li:before {
 
 #profile_pic img{
   border-radius: 50%;
-  padding-top: 10px;
-  padding: 0px;
-  height: 200px;
-  width:200px
+  margin-top: 50px;
+  margin-left: 10px;
+  height: 180px;
+  width:180px
 }
 
 .content{
   margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
+  padding: 0px 50px;
 }
 
 .about_me{
+  font-size: 30px;
   display: flex;
   align-content: flex-end;
   margin-top: 100px;
-  width: 50%
+  width: 80%
 }
 
 .skills{
@@ -118,7 +137,7 @@ html, body {
 
 .user-card img {
   border-radius: 10%;
-  height: 175px;
+  height: 150px;
   width: 150px;
   overflow: hidden;
 }
@@ -131,7 +150,7 @@ html, body {
   position: absolute;
   width: 150px;
   height: 100%;
-  background: linear-gradient(black, black);
+  background: linear-gradient(#080808, #080808);
   transition: width 0.4s;
   overflow: hidden;
   z-index: 2;
