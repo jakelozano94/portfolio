@@ -47,10 +47,12 @@ svg:hover {
 }
 
 .header{
+  padding-top: 100px;
   display: flex
 }
 
 .header h1{
+  text-align: center;
   width: 70%;
   margin: auto
 }
@@ -69,6 +71,7 @@ svg:hover {
 }
 
 .about_me{
+  padding-left: 100px;
   font-size: 30px;
   display: flex;
   align-content: flex-end;
@@ -89,10 +92,12 @@ svg:hover {
 }
 
 .exposed{
+  padding-left: 70px;
   margin-left: 30px;
 }
 
 .projects{
+  padding-left: 100px;
   display: block;
 }
 

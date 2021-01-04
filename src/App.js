@@ -23,7 +23,7 @@ function App() {
       </div>
       <div className="content">
         <div className="header">
-            <h1>Hi! im baby</h1>
+            <h1>Hi! im jacob.</h1>
         </div>
         <div className="break"></div>
         <div className ="about_me">
