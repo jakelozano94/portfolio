@@ -2,7 +2,7 @@ import React from 'react'
 
 function Skills() {
 
-    const profs = ["Ruby", "Rails", "Javascript", "React", "Redux", "CSS", "HTML", "Git Workflow", "Bootstrap"]
+    const profs = ["RoR", "Javascript", "React", "Redux", "CSS", "HTML", "Git", "Bootstrap", "Node.js"]
     const expos = ["PostgreSQL", "TensorFlow (Core & .js)", "R", "Python"]
 
     function lister(list){
