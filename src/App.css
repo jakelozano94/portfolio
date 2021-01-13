@@ -155,6 +155,10 @@ html, body {
   text-align: center;
 }
 
+#list-cont li{
+  padding: 10px;
+}
+
 .card .additional {
   position: absolute;
   width: 150px;

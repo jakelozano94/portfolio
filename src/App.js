@@ -17,6 +17,16 @@ function App() {
               <img src="https://i.imgur.com/zglnxly.png"/>
             </div>
             <h1 id="sidebar_name"> Jake Lozano</h1>
+            <div id="list-cont">
+              <ul>
+                <li> Fullstack </li>
+                <li> Reformed Cook</li>
+                <li> University of Texas</li>
+                <li> Flatiron Bootcamp </li>
+                <li> PCT Thru Hiker</li>
+                <li>Cross-country cyclist</li>
+              </ul>
+            </div>
       </div>
       <div className="content">
         <div className="header">
