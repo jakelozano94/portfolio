@@ -16,7 +16,7 @@ function App() {
             <div id="profile_pic">
               <img src="https://i.imgur.com/zglnxly.png"/>
             </div>
-            <h1 id="sidebar_name"> Jake Lozano</h1>
+            <h1 id="sidebar_name"> Jacob Lozano</h1>
             <div id="list-cont">
               <ul>
                 <li> Fullstack </li>
