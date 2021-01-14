@@ -20,11 +20,10 @@ function App() {
             <div id="list-cont">
               <ul>
                 <li> Fullstack </li>
-                <li> Reformed Cook</li>
-                <li> University of Texas</li>
-                <li> Flatiron Bootcamp </li>
-                <li> PCT Thru Hiker</li>
-                <li>Cross-country cyclist</li>
+                <li style={{paddingLeft: "50px"}}> UT Grad</li>
+                <li style={{paddingLeft: "70px"}}> Reformed Chef</li>
+                <li style={{paddingLeft: "90px"}}> Flatiron Bootcamp</li>
+                <li style={{paddingLeft: "110px"}}> PCT Completionist </li>
               </ul>
             </div>
       </div>
